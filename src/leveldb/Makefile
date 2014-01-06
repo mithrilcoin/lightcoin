@@ -56,7 +56,7 @@ TESTS = \
 PROGRAMS = db_bench leveldbutil $(TESTS)
 BENCHMARKS = db_bench_sqlite3 db_bench_tree_db
 
-LIBRARY = libleveldb.a
+LIBRARY = libleveldb.a libmemenv.a
 MEMENVLIBRARY = libmemenv.a
 
 default: all
